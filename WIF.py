@@ -1,6 +1,6 @@
 import socket
 
-host = input("Please input a valid host address. If invalid, the script will crash:")
+host = input('Please input a valid host address. If invalid, the script will crash:')
 
 ip = socket.gethostbyname(host)
 
